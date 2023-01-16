@@ -1,10 +1,10 @@
-import NavBar from "./nav-bar/NavBar";
+import HomePage from "../pages/homePage";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App bg-light">
       <header className="App-header">
-        <NavBar />
+        <HomePage />
       </header>
     </div>
   );
