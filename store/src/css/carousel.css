@@ -1,0 +1,33 @@
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #c3c3c3;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+}
+
+.card {
+  margin: 0 0.5em;
+  box-shadow: 0px 8px 5px rgba(22, 22, 26, 0.18);
+  border: none;
+  flex: 0 0 100%;
+}
+
+.card .img-wrapper {
+  max-width: 100%;
+  height: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  max-height: 100%;
+}
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 17em;
+  }
+}
