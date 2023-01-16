@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./css/App.css";
 import "bootstrap";
+import "./css/carousel.css";
 import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
 

@@ -6,7 +6,7 @@ const Body = (cards) => {
     <section className="clean-block clean-info dark">
       <div className="container-fluid">
         <div className="block-heading">
-          <h2 className="text-dark d-flex justify-content-center mt-5 pt-5">
+          <h2 className="text-dark d-flex justify-content-center mt-2 pt-5">
             SHOP BY CATAGORIES
           </h2>
           <p className="d-flex justify-content-center mb-5 pb-5">
