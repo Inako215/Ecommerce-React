@@ -7,7 +7,9 @@ const Card = ({ card: { title, image, slug } }) => {
       <img className="card-img-top h-100 d-block" src={image} alt="Card cap" />
       <a href={`/products/${slug}`} className="text-decoration-none">
         <div className="card-body">
-          <h4 className="d-flex justify-content-center card-title">{title}</h4>
+          <h4 className="d-flex justify-content-center card-title text-secondary">
+            {title}
+          </h4>
         </div>
       </a>
     </div>
