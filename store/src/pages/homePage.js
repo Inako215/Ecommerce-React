@@ -2,6 +2,8 @@ import Test from "../components/nav-bar/Test";
 import Header from "../components/header/Header";
 import Body from "../components/body/Body";
 import FeaturedSection from "../components/featured-products/FeaturedSection";
+import HomePageMain from "../components/homepage-main/HomePageMain";
+import Footer from "../components/footer/Footer";
 
 // This is the array of objects that will be used to display the cards
 const catagories = [
@@ -92,7 +94,11 @@ const HomePage = () => {
           <FeaturedSection products={products} />
         </div>
         <Body cards={catagories} />
+        <HomePageMain />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

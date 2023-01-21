@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./css/App.css";
 import "bootstrap";
 import "./css/carousel.css";
+import "./css/homePage.css";
 import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
 

@@ -33,7 +33,7 @@ const FeaturedCarousel = ({ products }) => {
     );
   };
 
-  const CustomLefttArrow = ({ onClick }) => {
+  const CustomLeftArrow = ({ onClick }) => {
     return (
       <button className="carousel-control-prev" onClick={() => onClick()}>
         <FaChevronLeft />
@@ -51,7 +51,7 @@ const FeaturedCarousel = ({ products }) => {
         <Carousel
           swipeable={false}
           draggable={true}
-          showDots={false}
+          showDots={true}
           responsive={responsive}
           ssr={true} // means to render carousel on server-side.
           infinite={true}
@@ -60,10 +60,11 @@ const FeaturedCarousel = ({ products }) => {
           customTransition="all 0.5s linear"
           transitionDuration={500}
           containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
+          removeArrowOnDeviceType={["mobile", "tablet"]}
           itemClass="carousel-item-padding-40-px"
+          dotListClass="d-lg-none"
           customRightArrow={<CustomRightArrow />}
-          customLeftArrow={<CustomLefttArrow />}
+          customLeftArrow={<CustomLeftArrow />}
         >
           {products.map((product, key) => (
             <FeaturedProductCard product={product} key={key} />

@@ -8,12 +8,12 @@ const FeaturedProductCard = ({ product }) => {
         </div>
         <div className="card-body d-flex flex-column">
           <h5 className="card-title d-flex justify-content-center">{name}</h5>
-          <p className="card-text p-2 d-flex justify-content-center">
+          <p className="card-text py-2 d-flex justify-content-center">
             {description}
           </p>
-          <div className="d-flex justify-content-between align-items-center mx-3">
+          <div className="d-flex flex-sm-column flex-md-row justify-content-between align-items-center mx-3">
             <span className="card-text fw-semibold fs-3">${price}</span>
-            <a href={slug} className="btn btn-primary text-light">
+            <a href={slug} className="btn btn-secondary text-light">
               Add to cart
             </a>
           </div>

@@ -1,0 +1,23 @@
+.bg-svg {
+  background-image: url(../images/sssurf.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  width: 100%;
+}
+
+.text-size {
+  font-size: clamp(16px, 3vw, 26px);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  padding: 3px 10px;
+}
